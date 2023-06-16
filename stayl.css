@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 60%;
+    width: 600px;
+    background-color: rgb(231, 229, 227);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50,-50);
+
+}
+.back{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    top: 17%;
+    border-radius: 10px;
+
+}
+h1{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+    color: rgba(0, 0, 255, 0.678);
+    font-family: serif;
+}
+.p p{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.so{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    
+}
+.f{
+    background-color: rgb(193, 219, 219);
+    width: 370px;
+    height: 40px;
+    position: relative;
+    right: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 17px;
+    background-color: rgb(231, 229, 227);
+    margin-bottom: 5px;
+
+}
+
+.t{
+    background-color: rgb(193, 219, 219);
+    width: 370px;
+    height: 40px;
+    position: relative;
+    right: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 17px;
+    background-color: rgb(231, 229, 227);
+    margin-bottom: 5px;
+
+}
+
+.l{
+    background-color: rgb(193, 219, 219);
+    width: 370px;
+    height: 40px;
+    position: relative;
+    right: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 17px;
+    background-color: rgb(231, 229, 227);
+
+}
+.icon{
+    background-color: rgba(0, 0, 255, 0.877);
+    width: 35px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+
+}
